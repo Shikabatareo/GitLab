@@ -7,6 +7,7 @@ namespace Git
         public static void Main(string[] args)
         {
             Console.WriteLine("sdfsf");
+            int a;
         }
     }
 }
