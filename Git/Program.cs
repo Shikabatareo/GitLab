@@ -8,6 +8,7 @@ namespace Git
         {
             Console.WriteLine("sdfsf");
             int a;
+            string zxc;
         }
     }
 }
