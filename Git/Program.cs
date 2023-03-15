@@ -54,6 +54,8 @@ namespace Git
                     {
                         Console.WriteLine("Ошибка: деление на ноль");
                     }
+
+                    int a;
                     else
                     {
                         Console.WriteLine("Результат: " + ((double)c / d));
