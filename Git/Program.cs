@@ -6,6 +6,7 @@ namespace Git
     {
         public static void Main(string[] args)
         {
+            int a;
            Console.WriteLine("Выберите операцию:");
             Console.WriteLine("1. Ввести А");
             Console.WriteLine("2. Ввести В");
@@ -54,8 +55,7 @@ namespace Git
                     {
                         Console.WriteLine("Ошибка: деление на ноль");
                     }
-
-                    int a;
+                    
                     else
                     {
                         Console.WriteLine("Результат: " + ((double)c / d));
@@ -65,7 +65,7 @@ namespace Git
                     Console.WriteLine("Некорректный выбор операции");
                     break;
             }
-
+         
             Console.ReadLine();
         }
     }
